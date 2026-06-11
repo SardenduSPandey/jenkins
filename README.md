@@ -65,7 +65,7 @@ This pipeline performs **Dynamic Application Security Testing (DAST)** to identi
 | Nmap | Network Scanning |
 | SonarQube | Static Application Security Testing (SAST) |
 | Dependabot | Software Composition Analysis (SCA) |
-| DAST Tool | Dynamic Application Security Testing (DAST) |
+| ZAP | Dynamic Application Security Testing (DAST) |
 | GitHub | Version Control |
 
 ---
