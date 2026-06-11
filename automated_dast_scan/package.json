@@ -1,0 +1,20 @@
+{
+  "name": "playwrite-script",
+  "version": "1.0.0",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.13",
+    "typescript": "^5.8.3"
+  }
+}
