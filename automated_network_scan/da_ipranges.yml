@@ -1,0 +1,21 @@
+dc_da:
+  children:
+    da_ips:
+      hosts:
+        # Sanitized: replaced real private IP range with documentation range
+        192.0.2.[1:255]:
+    da_public_ips:
+      hosts:
+        # Sanitized: replaced real public IP range with documentation range
+        198.51.100.[1:255]:
+          open_port:
+            - 25
+            - 80
+            - 443
+            - 587
+    # TODO: not split up yet
+    # se_ips_infra:
+    #   hosts:
+    #     192.0.2.[1:255]:
+    
+    
